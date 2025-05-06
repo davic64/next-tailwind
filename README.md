@@ -35,8 +35,6 @@ yarn dev
 
 - [ ] Landing Page with animation
 - [ ] Landing Page with light/dark mode
-- [ ] Login/Register Page
-- [ ] Forgot Password Page
 - [ ] Reset Password Page
 - [ ] Verify Email Page
 - [ ] Dashboard Page
