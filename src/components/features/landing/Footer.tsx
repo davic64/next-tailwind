@@ -6,14 +6,14 @@ export const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-white w-full py-12">
-      <div className="container mx-auto flex flex-col items-center justify-center space-y-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center space-y-4">
         <div className="flex items-center gap-2">
           <span className="flex items-center justify-center bg-primary rounded-md text-white w-7 h-7">
             <CodeIcon size={14} />
           </span>
           <span className="font-medium text-lg">BoilerPlate</span>
         </div>
-        <p className="text-gray-400 text-sm text-center w-1/4">
+        <p className="text-gray-400 text-sm text-center md:w-1/2 lg:w-1/4">
           A modern and complete solution to kickstart your web projects quickly and efficiently.
         </p>
         <Link

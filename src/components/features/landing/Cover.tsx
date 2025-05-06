@@ -6,7 +6,7 @@ export const Cover = () => {
     <section className="py-20 w-full bg-blue-50">
       <div className="h-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center justify-between">
         <div className="lg:w-1/2 lg:pr-12">
-          <h1 className="text-6xl font-bold tracking-tight text-gray-900">
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
             <span className="block">Start your projects</span>
             <span className="block text-primary">faster than ever</span>
           </h1>

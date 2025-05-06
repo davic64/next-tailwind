@@ -33,8 +33,6 @@ export const Steps = () => {
         description="Our boilerplate is designed to be extremely easy to use. Follow these simple steps to get started."
       >
         <div className="relative">
-          <div className="block absolute left-[50%] h-full w-0.5 bg-gray-200 transform -translate-x-1/2 z-0" />
-
           <div className="mt-16">
             <div className="relative">
               {/* Line connecting all steps */}
@@ -46,7 +44,7 @@ export const Steps = () => {
                     key={index}
                     className={`md:flex ${index % 2 === 0 ? '' : 'md:flex-row-reverse'} items-center gap-8`}
                   >
-                    <div className="w-1/2">
+                    <div className="md:w-1/2">
                       <Card>
                         <CardHeader className="flex items-center gap-4">
                           <span className="flex items-center justify-center h-10 w-10 rounded-full bg-primary/10 text-primary text-lg font-bold shrink-0">
@@ -63,7 +61,7 @@ export const Steps = () => {
                       </Card>
                     </div>
 
-                    <div className="relative flex">
+                    <div className="hidden relative md:flex">
                       <div className="flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 mx-auto z-20 animate-ping absolute" />
                       <div className="flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 mx-auto z-20">
                         <span className="text-primary font-bold">{step.id}</span>

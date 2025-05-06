@@ -6,16 +6,16 @@ const Home = () => {
   if (!config.enableLanding) redirect('/login');
 
   return (
-    <>
+    <div className="min-h-screen">
       <Navbar />
-      <div>
+      <main>
         <Cover />
         <Features />
         <Steps />
         <CTA />
-      </div>
+      </main>
       <Footer />
-    </>
+    </div>
   );
 };
 
