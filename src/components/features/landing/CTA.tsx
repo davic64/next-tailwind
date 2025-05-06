@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 export const CTA = () => {
   return (
     <div className="py-20 bg-primary">
-      <div className="container mx-auto text-center space-y-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
         <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
           Ready to accelerate your development?
         </h2>
