@@ -33,7 +33,6 @@ yarn dev
 
 ## TODO
 
-- [ ] Landing Page responsive
 - [ ] Landing Page with animation
 - [ ] Landing Page with light/dark mode
 - [ ] Login/Register Page
@@ -45,4 +44,5 @@ yarn dev
 - [ ] Settings Page
 - [ ] Logout Page
 - [ ] 404 Page
+- [ ] CI/CD with GitHub Actions
 - [ ] Documentation
