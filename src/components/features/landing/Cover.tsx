@@ -3,9 +3,9 @@ import { ArrowRightIcon } from 'lucide-react';
 
 export const Cover = () => {
   return (
-    <section className="h-[75vh] w-full bg-blue-50 py-16">
-      <div className="h-full container mx-auto flex items-center justify-between">
-        <div className="w-1/2 pr-12">
+    <section className="py-20 w-full bg-blue-50">
+      <div className="h-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center justify-between">
+        <div className="lg:w-1/2 lg:pr-12">
           <h1 className="text-6xl font-bold tracking-tight text-gray-900">
             <span className="block">Start your projects</span>
             <span className="block text-primary">faster than ever</span>
@@ -24,8 +24,8 @@ export const Cover = () => {
           </div>
           <p className="mt-6 text-sm text-gray-500">No credit card required · 5-minute setup</p>
         </div>
-        <div className="w-1/2">
-          <div className="relative pl-8">
+        <div className="mt-12 lg:mt-0 lg:w-1/2">
+          <div className="relative lg:pl-8">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200">
               <div className="p-2 bg-gray-100 border-b border-gray-200">
                 <div className="flex items-center">
