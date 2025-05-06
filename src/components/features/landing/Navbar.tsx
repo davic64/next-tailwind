@@ -17,8 +17,8 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full h-16 flex items-center shadow-lg shadow-gray-100/60 bg-white/90 z-50">
-        <div className="flex items-center justify-between w-full mx-auto px-4 md:container md:px-0">
+      <nav className="sticky top-0 left-0 w-full h-16 flex items-center shadow-lg shadow-gray-100/60 bg-white/90 z-50">
+        <div className="max-w-7xl flex items-center justify-between w-full mx-auto px-4">
           <div className="flex items-center gap-2">
             <span className="flex items-center justify-center bg-primary rounded-lg text-white w-8 h-8">
               <CodeIcon size={14} />
